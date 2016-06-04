@@ -28,7 +28,9 @@ public class BingSearchProvider implements SearchProvider {
 		searchPhrase = phrase;
 		size = 10;
 		
-		// Add your binID to this file ./src/conf.properties
+		/*
+		 * Add your binID to this file ./src/conf.properties
+		 * */
 		
 		accountId = Config.getBingID();
 
